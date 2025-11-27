@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://coco-arcos.github.io/nez/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://coco-arcos.github.io/nez/example_deployment/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://coco-arcos.github.io/nez/concepts/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://coco-arcos.github.io/nez/concepts/architecture/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://coco-arcos.github.io/nez/concepts/features/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://coco-arcos.github.io/nez/concepts/overview/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+</urlset>
