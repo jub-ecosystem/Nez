@@ -25,6 +25,23 @@ services:
       WEB_PORT: 22005
       AUTH_HOST: auth
       APIGATEWAY_HOST: apigateway
+
+#################################
+# Servicios de Front-Nez
+#################################
+    front-nez:
+    build:
+      context: ./front-nez # <-- ( Dockerfile de Next.js)
+      dockerfile: Dockerfile
+    tty: true
+    restart: unless-stopped
+    ports:
+      - "3000:3000" #http://localhost:3000
+    environment:
+      # Next.js usa el nombre del servicio Docker para comunicarse internamente.
+      VALUECHAIN_HOST: http://valuechain
+
+####################################
   value-chain-api: #API para la construcción de sistemas de e-salud
     image: ddomizzi/nezapi:v1
     #build: ./valuechain_api/api
